@@ -1,0 +1,1 @@
+urls: https://www.chip.com.tr/ => score: 60.0urls: https://www.chip.com.tr/ => score: 220.00000000000003urls: https://www.chip.com.tr/ => score: 220.00000000000003

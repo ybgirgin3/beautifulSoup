@@ -1,0 +1,5 @@
+termcolor
+spacy
+beautifulsoup4
+urllib3
+Flask

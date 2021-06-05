@@ -1,0 +1,2 @@
+urls: https://www.overleaf.com/ => score: 60.0
+urls: https://www.geeksforgeeks.org/ => score: 70.0

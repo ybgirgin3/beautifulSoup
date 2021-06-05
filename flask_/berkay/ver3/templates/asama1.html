@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+   <body>
+   <h3> url 1 </h3>
+        </form>
+        </br>
+        <form action="/asama23" method="POST">
+        <br>
+        <button type="submit" value="submit" class="btn btn-primary"> İşleme Koy Aşama 2 </button>
+
+    </form>
+    <span style="color: red">ana url:</span> {{ result['ana_url'] }} </br>
+    <span style="color: red">alt urller:</span> {{ result['alt_urller'] }}</br>
+    <span style="color: red">urller içinde en çok kullanılan kelimelerin benzerlik yüzdesi:</span> {{ result['perc'] }}</br>
+
+    <span style="color: red">en çok kullanılan kelimeler:</span> </br>
+    {{ result['freq'] }}
+   </body>
+</html>

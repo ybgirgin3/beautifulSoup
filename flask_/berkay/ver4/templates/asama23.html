@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<style>
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+</style>
+   <body>
+    <table style="text-align:center;">
+        <tr>
+            <th><span style="color: red">Ana url</span></th>
+            <th><span style="color: red">Alt Urller</span></th>
+            <th><span style="color: red">Alt Urller ile Ana Url Arasındaki Benzerlik Oranı</span></th>
+            <th><span style="color: red">Sık kullanılan Kelimeler</span></th>
+            <th><span style="color: red">İki site arasında benzerlik oranı</span></th>
+
+        </tr>
+
+        <tr>
+            <td>{{ result[0]['ana_url'] }}</td>
+            <td>{{ result[0]['alt_urller'] }}</td>
+            <td>%{{ result[0]['perc'] }}</td>
+            <td>{{ result[0]['freq'] }}</td>
+            <td rowspan="2">%{{ result[2]['percBetween'] }}</td>
+
+            <br><br><br><br><br>
+        </tr>
+
+        <tr>
+            <td>{{ result[1]['ana_url'] }}</td>
+            <td>{{ result[1]['alt_urller'] }}</td>
+            <td>%{{ result[1]['perc'] }}</td>
+            <td>{{ result[1]['freq'] }}</td>
+        </tr>
+
+    </table>
+
+
+<!--
+   <h3> url 2 </h3>
+    <span style="color: red">ana url:</span> {{ result[0]['ana_url'] }}, {{ result[1]['ana_url'] }} </br>
+    <span style="color: red">alt urller:</span> {{ result[0]['alt_urller'] }}, {{ result[1]['alt_urller'] }}</br>
+    <span style="color: red">urller içinde en çok kullanılan kelimelerin benzerlik yüzdesi:</span> {{ result[0]['perc'] }}, {{ result[1]['perc'] }}</br>
+
+    <span style="color: red">en çok kullanılan kelimeler:</span> </br>
+    {{ result[0]['freq'] }},<br><br> {{ result[1]['freq'] }}
+    -->
+   </body>
+</html>

@@ -1,0 +1,43 @@
+1. adım:
+============
+gerekli olan kütüphaneleri indirmek için terminal/cmd ekranına;
+
+  pip3 install -r requirements.txt
+ 
+komutunu girerek kolayca tüm gerekli olan kütüphaneleri indirebilirsiniz.
+
+
+2. adım:
+=============
+2toBea.py dosyası içinde SemanticFinder() isimli fonksiyon içinde
+13, 17 ve 22. satırlarda kullanılabilecek olan semantik kelime modelleri verilmiştir.
+içlerinden sizin için en uygun olanını seçip terminal/cmd ekranına
+
+  python3 -m spacy download <seçtiğiniz modelin adı>
+
+  (ör.);
+  python3 -m spacy download en_core_web_md
+
+komutunu girerek gerekli olan modeli indirmeniz gerekmektedir.
+
+3. adım:
+=============
+tüm işlemler işlemler/yüklemeler tamamlandığından main.py isimli modülünü çalıştırarak 
+başarılı bir şekilde projeyi hayata geçirebilirsiniz.
+
+
+
+
+
+
+
+
+Kolay Gelsin... Başka bir projede görüşmek üzere :)
+
+Yusuf Berkay Girgin
+
+telefon: +90 534 923 83 30,
+github: https://github.com/ybgirgin3,
+email: yusufbgirginis@gmail.com,
+linkedin: https://www.linkedin.com/in/yusufgirgin/
+bionluk: https://bionluk.com/ybgirgin3
